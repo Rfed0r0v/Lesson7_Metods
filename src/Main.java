@@ -8,6 +8,8 @@ public class Main {
         System.out.println("Задание 1");
         printYearType(2100);
 
+        System.out.println("Задание 2");
+
 
 
     }
