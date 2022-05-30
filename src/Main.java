@@ -36,6 +36,16 @@ public class Main {
         System.out.println("\nЗадание 3");
         System.out.println("Потребуется дней: " + calculateTimeOfDelivery(25));
 
+        System.out.println("\nЗадание 4");
+        String testString = "aabccddefgghiijjkk.";
+
+        for (int i = 0; i < testString.length()-1; i++) {
+            if (testString.charAt(i) == testString.charAt(i+1)){
+                System.out.println("Имеется дубль - символ '" +testString.charAt(i+1) + "' в позиции " + (i+1));
+                break;
+            }
+        }
+
 
     }
 
